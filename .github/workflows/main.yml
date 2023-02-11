@@ -12,5 +12,5 @@ jobs:
       uses: xRealNeon/VuePagesAction@1.0.1
       with:
         username: 'AcclaimedAP'
-        reponame: 'acclaimedap.github.io'
+        reponame: 'cv2023'
         token: ${{ secrets.GITHUB_TOKEN }} # Leave this line unchanged
