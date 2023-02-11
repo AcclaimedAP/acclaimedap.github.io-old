@@ -39,6 +39,7 @@ function changeContent(cxt) {
   height: 100vh;
   width: 100vw;
   margin: 0;
+  
 }
 
 </style>
