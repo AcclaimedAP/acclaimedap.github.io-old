@@ -30,7 +30,18 @@ $startPercent: 96%;
         top: $startPercent;
     } 100% {
         opacity: 1;
-        top: 93%;
+        top: 91%;
+    }
+}
+@keyframes flash {
+    0% {
+        text-shadow: 0 0 10px rgba(255,255,255, 0);
+    }
+    50% {
+        text-shadow: 0 0 10px rgba(255,255,255, 1);
+    }
+    100% {
+        text-shadow: 0 0 10px rgba(0,0,0, 0.2);
     }
 }
 nav {
@@ -54,6 +65,7 @@ nav {
             display: inline-block;
             position: relative;
             cursor: pointer;
+            animation: flash 1s ease-in-out 3s 1 forwards;
             &:after {
                 content: '';
                 position: absolute;
