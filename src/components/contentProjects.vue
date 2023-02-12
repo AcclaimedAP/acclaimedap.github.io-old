@@ -28,7 +28,7 @@ text="Enkelt spel gjort i Unity för mitt Gymnasiearbete. Man tar kontroll över
 link="https://github.com/AcclaimedAP/Barrel-Roll" 
 linktext="Länk till repot här, inkl. kompilerat projekt samt länk till rapport."
 image="./img/projects/barrel.jpg" 
-imageAltText="Screenshot of barrel model from the game" float="right"/>
+imageAltText="Screenshot of barrel model from the game"/>
 
 </div>
 </template>

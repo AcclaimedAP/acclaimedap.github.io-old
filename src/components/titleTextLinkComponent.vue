@@ -38,7 +38,7 @@ export default {
 
 <style scoped lang="scss">
 img{
-    width: 300px;
+    width: 350px;
     height: auto;
     margin: 10px;
 }
